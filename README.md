@@ -60,6 +60,14 @@ All data is public and is downloaded directly in the notebook with GEOparse.
 | 168323 | Micheal Wambari |
 | 163362 | Bill Ritchie |
 
+## Key Results
+
+- 1,577 of 10,065 genes differ between active and latent TB (FDR < 0.05, |log2FC| > 0.5): 800 higher and 777 lower in active TB.
+- Genes higher in active TB are most enriched for Interferon Gamma and Interferon Alpha response pathways.
+- A 100-gene logistic regression reached AUC 0.954 (cross-validated), compared with 0.500 for the majority-class baseline and 0.926 for the 3-gene Sweeney score.
+- Performance is lower in HIV-positive patients (AUC 0.922) than in HIV-negative patients (0.984); the difference is 0.062 (95% CI 0.024 to 0.105).
+- No external validation was done; all results are from cross-validation within GSE37250.
+
 ## References
 
 - Kaforou M. et al. (2013). Detection of tuberculosis in HIV-infected and uninfected African adults using whole blood RNA expression signatures. PLoS Medicine.
